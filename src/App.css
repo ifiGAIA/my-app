@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.bgc
+{
+  background-color: rgb(29, 94, 103);
+  overflow-y: hidden;
+}

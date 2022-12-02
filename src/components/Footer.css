@@ -1,0 +1,9 @@
+.version {
+	color: aliceblue;
+	display: flex;
+    /* position: absolute; */
+	justify-content: flex-end;
+    /* bottom: 10px; */
+	font-size: 0.75rem;
+	background: #f52f4c;
+}

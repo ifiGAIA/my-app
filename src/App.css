@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -41,4 +43,13 @@
 {
   background-color: rgb(29, 94, 103);
   overflow-y: hidden;
+  height: 100vh;
+}
+
+.containerPF
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }

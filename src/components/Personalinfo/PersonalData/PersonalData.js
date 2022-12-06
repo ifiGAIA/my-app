@@ -1,8 +1,9 @@
-import './Personalinfo.css';
-import Mugshotimg from '../img/Mug_shot3.jpg';
+import './PersonalData.css';
+import Mugshotimg from '../../../img/Mug_shot3.jpg';
+
 export default function Personalinfo(){
     return(
-        <div className='personalinfo'>
+        <div className='personaldata'>
             <div className="card" id="card">
                 <div className="imgBx">
                     <img src={Mugshotimg} alt="Mugshot"/>

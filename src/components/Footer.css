@@ -1,9 +1,49 @@
 .version {
 	color: aliceblue;
 	display: flex;
-    /* position: absolute; */
+	padding: 10px;
 	justify-content: flex-end;
-    /* bottom: 10px; */
 	font-size: 0.75rem;
 	background: #f52f4c;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.version a
+{
+	display: flex;
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+.version ion-icon
+{
+	width: 35px;
+	height: 35px;
+	color: rgb(255, 255, 255);
+}
+.version .sign
+{
+	position: absolute;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #f52f4c;
+	font-size: 1.2rem;
+	font-weight: 600;
+	right: 135px;
+	bottom: -69rem;
+	width:160px;
+	height: 70px;
+	background: #fff;
+	border-radius: 10px;
+}
+.version .triangle
+{
+	position: absolute;
+	right: 150px;
+	bottom: -70rem;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 30px 30px 0;
+	border-color: transparent #fff transparent transparent;
 }

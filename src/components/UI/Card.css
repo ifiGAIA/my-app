@@ -1,0 +1,8 @@
+.expcard
+{
+    padding: 15px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	margin-bottom: 2rem;
+	background-color: white;
+}

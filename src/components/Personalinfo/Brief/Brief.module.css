@@ -1,0 +1,48 @@
+.brief
+{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    max-width: 45rem;
+    color: #fff;
+    background: #f52f4c;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-top: 20rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    /* overflow: hidden; */
+}
+
+.brief span
+{
+    position: absolute;
+    margin-top: 25rem;
+    background: #2184B0; /*A606068*/
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animateFlow1 1s linear infinite;
+}
+@keyframes animateFlow1
+{
+    0%
+    {
+        width: 0;
+        height: 0;
+        opacity: 0.6;
+    }
+    50%
+    {
+        width: 300px;
+        height: 300px;
+        opacity: 0.3;
+    }
+    100%
+    {
+        width: 600px;
+        height: 600px;
+        opacity: 0;
+    }
+}

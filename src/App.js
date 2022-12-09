@@ -15,7 +15,7 @@ function App() {
 			<footer>
 				<Footer />
 			</footer>
-		</React.Fragment>
+	</React.Fragment>
   );
 }
 

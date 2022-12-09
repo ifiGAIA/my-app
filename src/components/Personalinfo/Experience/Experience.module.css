@@ -2,9 +2,16 @@
 {
 	max-width: 90rem;
 	width: 90%;
-	margin: 2rem auto;
-    margin-top: 15rem;
+	margin: auto;
+    margin-top: 13rem;
     margin-bottom: 15rem;
+}
+
+.experiences h1
+{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 2rem;
 }
 
 .experiences ul 

@@ -1,12 +1,13 @@
 
 import Card from '../../UI/Card';
-import './Experience.css';
+import styles from './Experience.module.css';
 import ExperienceItem from './ExperienceItem';
 
 const EXPERIENCE_LIST = [
     {
         id: 'e1',
         name: 'Web&APP',
+        url:'https://ifigaia.github.io/Portfolio/webapp.html',
         title: 'Front-End Developer',
         description: [
             '利用簡單教學及敘述，讓吉他的初學者簡單認識吉他，不再覺得這是一個陌生的樂器，並搭配樂譜以及教學影片，使學習的成果事半功倍!',
@@ -18,6 +19,7 @@ const EXPERIENCE_LIST = [
     {
         id: 'e2',
         name: 'Game',
+        url:'https://ifigaia.github.io/Portfolio/gameintro.html',
         title: 'Game Developer',
         description: [
             '2D/橫向卷軸/解謎/恐怖/冒險遊戲，將兒時的恐懼作為核心概念，運用蒐集道具的方式拼湊一段關於家庭暴力的故事。',
@@ -39,13 +41,15 @@ export default function Experience(){
                     name={exp.name}
                     title={exp.title}
                     description={exp.description}
+                    url={exp.url}
                 ></ExperienceItem>
             </Card>
         );
     });
 
     return(
-        <div className='experiences'>
+        <div className={styles.experiences}>
+            <h1>My Experiences</h1>
             {experienceList}
         </div>
     );

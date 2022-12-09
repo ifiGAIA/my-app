@@ -1,4 +1,5 @@
 .version {
+	position: relative;
 	color: aliceblue;
 	display: flex;
 	padding: 10px;
@@ -13,12 +14,19 @@
 	width: 35px;
 	height: 35px;
 	margin-right: 10px;
+	transition: 0.5s;
 }
 .version ion-icon
 {
 	width: 35px;
 	height: 35px;
 	color: rgb(255, 255, 255);
+	transition: 0.5s;
+}
+.version a:hover
+{
+	transform: scale(1.5) rotate(-30deg) translateY(-40%);
+	z-index: 1000;
 }
 .version .sign
 {
@@ -30,7 +38,7 @@
 	font-size: 1.2rem;
 	font-weight: 600;
 	right: 135px;
-	bottom: -69rem;
+	bottom: 6rem;
 	width:160px;
 	height: 70px;
 	background: #fff;
@@ -40,7 +48,7 @@
 {
 	position: absolute;
 	right: 150px;
-	bottom: -70rem;
+	bottom: 5rem;
 	width: 0;
 	height: 0;
 	border-style: solid;

@@ -1,4 +1,5 @@
-import "./ExperienceItem.css";
+// import "./ExperienceItem.css";
+import styles from "./ExperienceItem.module.css";
 
 export default function ExperienceItem(props){
     
@@ -7,16 +8,18 @@ export default function ExperienceItem(props){
             <li key={Math.random()}>{description}</li>
         )
     })
+
     return(
-        <div className="experience">
+        <div className={styles.experience}>
             <div>
                 <h3>{props.name}</h3>
-                <div className="title">
+                <div className={styles.title}>
                     {props.title}
                 </div>
-                <div className="desciption">
+                <div className={styles.description}>
                     {description}
                 </div>
+                <a href={props.url}>Learn More</a>
             </div>
         </div>
     );

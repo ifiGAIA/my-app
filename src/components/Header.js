@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import styles from "./Header.module.css";
 
 const Header = () =>{
     return(
@@ -7,7 +7,7 @@ const Header = () =>{
         //     <h1>Benjamin's CV</h1>
         // </header>
         <React.Fragment>
-            <header className="header">
+            <header className={styles.header}>
                 <h1>Benjamin's CV</h1>
             </header>
         </React.Fragment>

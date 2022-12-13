@@ -15,11 +15,16 @@
 .experience a
 {
     display: flex;
+	position: absolute;
 	color: #f52f4c;
     font-size: 1rem;
-    margin-top: 1rem;
+    margin-top: -1rem;
     text-decoration:none;
     font-weight: 600;
+}
+.experience a:hover
+{
+	font-size: 1.1rem;
 }
 
 .title {
@@ -31,7 +36,7 @@
 
 .description {
 	margin-top: 1rem;
-	color: #555;
+	margin-bottom: 2rem;
+	color: rgb(155, 155, 155);
 	font-size: 1rem;
-    opacity: 0.5;
 }

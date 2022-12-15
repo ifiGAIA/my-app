@@ -1,4 +1,3 @@
-// import "./ExperienceItem.css";
 import styles from "./ExperienceItem.module.css";
 
 export default function ExperienceItem(props){
@@ -19,7 +18,7 @@ export default function ExperienceItem(props){
                 <div className={styles.description}>
                     {description}
                 </div>
-                <a href={props.url}>Learn More</a>
+                <a href={props.url}>{props.LearnMore}</a>
             </div>
         </div>
     );

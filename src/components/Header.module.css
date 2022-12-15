@@ -23,3 +23,13 @@
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
+
+select
+{
+	outline: 0;
+	border: 0;
+	background: #f52f4c;
+	color: #fff;
+	appearance: none;
+	cursor: pointer;
+}

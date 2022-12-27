@@ -3,8 +3,8 @@ import LanguageContext from "./LanguageContext/LanguageContext";
 import styles from "./Header.module.css";
 import { LanguageMap } from "./Language/Language";
 
-const Header = (props) =>{
 
+const Header = (props) =>{
     const languageCtx = useContext(LanguageContext);
 
     const LanguageOptions = () =>{
@@ -17,7 +17,7 @@ const Header = (props) =>{
             </div>
         )
     }
-
+    
     const onChangeLanguage = (event) =>{
         props.onChangeLanguage(event.target.value);
         languageCtx.language = event.target.value;

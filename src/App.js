@@ -32,7 +32,7 @@ function App() {
 			<main>
 				<Personalinfo />
 			</main>
-			<div>{<img src={dogImage}></img>}</div>
+			{/* <div>{<img src={dogImage}></img>}</div> */}
 			<footer>
 				<Footer />
 			</footer>

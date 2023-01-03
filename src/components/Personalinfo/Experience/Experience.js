@@ -16,7 +16,7 @@ const EXPERIENCE_LIST = [
     {
         id: 'e1',
         name: 'Web&APP',
-        url:'https://ifigaia.github.io/Portfolio/webapp.html',
+        url:'https://ifigaia.github.io/portfolioWeb/webapp.html',
         title_us: 'Front-end Development',
         title_ch: '前端開發',
         description_us: [
@@ -37,7 +37,7 @@ const EXPERIENCE_LIST = [
     {
         id: 'e2',
         name: 'Game',
-        url:'https://ifigaia.github.io/Portfolio/gameintro.html',
+        url:'https://ifigaia.github.io/portfolioWeb/gameintro.html',
         title_us: 'Game Development',
         title_ch: '遊戲開發',
         description_us: [
